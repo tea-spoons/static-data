@@ -17,7 +17,7 @@ Originally developed at Bigpoint. Published here with Bigpoint's permission for 
 ## Planned changes
 
 - [x] Tag and publish `v0.22.2` with the Release workflow.
-- [ ] Tag and publish `v0.23.0` with the Release workflow.
+- [x] Tag and publish `v0.23.0` with the Release workflow.
 - [ ] Run this package's tests in CI with `unity-ci-kit` (needs a small test-project helper in the kit).
 - [ ] Restore Markdown support as an optional integration with the public Markdig library.
 
