@@ -3,11 +3,10 @@ namespace TeaSpoons.StaticData
 {
     using System;
     using UnityEngine;
-    using StructuredDocuments;
     using System.Globalization;
 
     /// <summary>
-    /// Base class for parsing values found in <see cref="StructuredDocument"/>s.
+    /// Base class for parsing values found in structured documents (see the StructuredDocuments package).
     /// </summary>
     public class BasicValueParser
     {

@@ -1,5 +1,5 @@
 
-#if NEWTONSOFT_JSON
+#if TEASPOONS_STRUCTURED_DOCUMENTS && NEWTONSOFT_JSON
 namespace TeaSpoons.StaticData.Editor
 {
     using TeaSpoons.StaticData;

@@ -4,7 +4,8 @@
     "references": [
         "GUID:09ad11e172a6ed5458fdf3b35a72eb04",
         "GUID:27619889b8ba8c24980f49ee34dbb44a",
-        "GUID:0acc523941302664db1f4e527237feb3"
+        "GUID:0acc523941302664db1f4e527237feb3",
+        "GUID:2a9eee83e6c2f914fa1cfaa193c0ab21"
     ],
     "includePlatforms": [
         "Editor"
@@ -19,6 +20,12 @@
     "defineConstraints": [
         "UNITY_INCLUDE_TESTS"
     ],
-    "versionDefines": [],
+    "versionDefines": [
+        {
+            "name": "com.tea-spoons.package-core",
+            "expression": "1.3.2",
+            "define": "TEASPOONS_PACKAGE_CORE"
+        }
+    ],
     "noEngineReferences": false
 }

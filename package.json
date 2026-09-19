@@ -1,14 +1,9 @@
 {
   "name": "com.tea-spoons.static-data",
-  "version": "0.22.2",
+  "version": "0.23.0",
   "displayName": "Static Data",
   "description": "Management for gamedesign static data. Prepares and loads files, stores them in a runtime library and allows cross-referencing.",
   "unity": "2022.3",
-  "dependencies": {
-    "com.tea-spoons.collections": "0.7.0",
-    "com.tea-spoons.structured-documents": "0.4.0",
-    "com.tea-spoons.package-core": "1.3.2"
-  },
   "author": {
     "name": "Muhammad Tarek Abdou",
     "email": "muhammadtarekabdou@gmail.com",

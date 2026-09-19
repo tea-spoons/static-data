@@ -1,7 +1,9 @@
 
 namespace TeaSpoons.StaticData.Editor
 {
+#if TEASPOONS_PACKAGE_CORE
     using TeaSpoons.PackageCore.Editor;
+#endif
     using UnityEditor;
     using UnityEngine;
 

@@ -112,15 +112,19 @@ In Unity: **Window > Package Manager > + > Add package from git URL**, then ente
 https://github.com/tea-spoons/static-data.git
 ```
 
-Pin a release by appending a tag, for example `#v0.22.2`.
+Pin a release by appending a tag, for example `#v0.23.0`.
 
 ### Dependencies
 
-Unity cannot resolve git dependencies automatically, so add these to your project first:
+None. Static Data works on its own and installs from the git URL without adding anything else.
 
-- `com.tea-spoons.collections` 0.7.0
-- `com.tea-spoons.structured-documents` 0.4.0
-- `com.tea-spoons.package-core` 1.3.2
+It uses the optional packages below when your project has them (Unity detects them automatically) and falls back to plain behaviour when it does not.
+
+| Package | Used for |
+|---|---|
+| Structured Documents (`com.tea-spoons.structured-documents` 0.4.0+) | The importers: `XmlStaticDataImporter`, `JsonStaticDataImporter` (also needs Newtonsoft Json) and the base `StaticDataImporter`. **Without it there are no importers**; the rest of the package (`StaticDataObject`, `StaticDataLibrary`, `StaticDataReference` and the value parsers) works, so you can still create and load static data yourself. |
+| Collections (`com.tea-spoons.collections` 0.7.0+) | The two-level dictionary inside `StaticDataLibrary`. Without it the library uses a small built-in equivalent. |
+| Package Core (`com.tea-spoons.package-core` 1.3.2+) | A helper of the `StaticDataReference` property drawer. Without it the drawer uses a small built-in equivalent. |
 
 ## Notes
 

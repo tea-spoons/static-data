@@ -1,5 +1,5 @@
 
-#if MARKDIG
+#if TEASPOONS_STRUCTURED_DOCUMENTS && MARKDIG
 namespace TeaSpoons.StaticData.Editor
 {
     using TeaSpoons.StaticData;

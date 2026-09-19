@@ -1,4 +1,4 @@
-
+#if TEASPOONS_STRUCTURED_DOCUMENTS
 namespace TeaSpoons.StaticData.Editor
 {
     using TeaSpoons.StructuredDocuments;
@@ -89,4 +89,4 @@ namespace TeaSpoons.StaticData.Editor
         }
     }
 }
-
+#endif

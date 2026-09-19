@@ -2,8 +2,7 @@
     "name": "TeaSpoons.StaticData",
     "rootNamespace": "TeaSpoons.StaticData",
     "references": [
-        "GUID:f1075758a4a14e847afe615175334b70",
-        "GUID:2e57648c88c85ab4688834d3457cc7e5"
+        "TeaSpoons.Collections"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
@@ -12,6 +11,12 @@
     "precompiledReferences": [],
     "autoReferenced": true,
     "defineConstraints": [],
-    "versionDefines": [],
+    "versionDefines": [
+        {
+            "name": "com.tea-spoons.collections",
+            "expression": "0.7.0",
+            "define": "TEASPOONS_COLLECTIONS"
+        }
+    ],
     "noEngineReferences": false
 }
