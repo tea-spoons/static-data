@@ -1,0 +1,17 @@
+{
+    "name": "TeaSpoons.StaticData",
+    "rootNamespace": "TeaSpoons.StaticData",
+    "references": [
+        "GUID:f1075758a4a14e847afe615175334b70",
+        "GUID:2e57648c88c85ab4688834d3457cc7e5"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

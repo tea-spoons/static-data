@@ -1,0 +1,26 @@
+{
+  "name": "TeaSpoons.StaticData.Editor",
+  "rootNamespace": "TeaSpoons.StaticData.Editor",
+  "references": [
+    "GUID:09ad11e172a6ed5458fdf3b35a72eb04",
+    "GUID:2e57648c88c85ab4688834d3457cc7e5",
+    "GUID:0dbd9e6df9968c04aaf1b8b452dd9495"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [
+    {
+      "name": "com.unity.nuget.newtonsoft-json",
+      "expression": "3.2.1",
+      "define": "NEWTONSOFT_JSON"
+    }
+  ],
+  "noEngineReferences": false
+}
