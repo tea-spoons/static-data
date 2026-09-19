@@ -15,7 +15,7 @@ Originally developed at Bigpoint. Published here with Bigpoint's permission for 
 
 ## Planned changes
 
-- [ ] Tag and publish `v0.22.2` with the Release workflow.
+- [x] Tag and publish `v0.22.2` with the Release workflow.
 - [ ] Run this package's tests in CI with `unity-ci-kit` (needs a small test-project helper in the kit).
 - [ ] Make installs resolve dependencies automatically, for example through a registry such as OpenUPM.
 - [ ] Restore Markdown support as an optional integration with the public Markdig library.
