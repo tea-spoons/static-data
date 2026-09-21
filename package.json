@@ -1,6 +1,6 @@
 {
   "name": "com.tea-spoons.static-data",
-  "version": "0.23.0",
+  "version": "0.23.1",
   "displayName": "Static Data",
   "description": "Management for gamedesign static data. Prepares and loads files, stores them in a runtime library and allows cross-referencing.",
   "unity": "2022.3",
